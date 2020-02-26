@@ -66,6 +66,8 @@ abstract_target "ReactNative" do
   pod 'CodePush', :path => '../node_modules/react-native-code-push'
   pod 'react-native-fast-image', :path => '../node_modules/react-native-fast-image'
   pod 'IQKeyboardManager'
+  pod 'RNKeychain', :path => '../node_modules/react-native-keychain'
+
 
   target 'nativeTemplate' do
     # Intentionally left empty
